@@ -33,5 +33,8 @@ export class TaskService {
         await this.entityManager.save(task);
     }
 
-    // TODO deleteTask()
+    async deleteTask(id: number) {
+        const task = await this.taskRepository.findOneBy({id});
+        return this.taskRepository.delete(task.id);
+    }
 }
