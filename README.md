@@ -24,7 +24,7 @@
 
 ## Descripción
 
-Trabajo práctico de NestJS utilizando TypeORM y MongoDB.
+Trabajo práctico de NestJS utilizando TypeORM y MySQL.
 
 ## Support
 
