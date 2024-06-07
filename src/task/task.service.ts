@@ -12,7 +12,7 @@ export class TaskService {
         private readonly entityManager: EntityManager
     ){}
 
-    async create(createTaskDto: CreateTaskDto) {
+    async createTask(createTaskDto: CreateTaskDto) {
         const task = new Task(createTaskDto);
         await this.entityManager.save(task);
     }
