@@ -30,7 +30,7 @@ La URL es ```http://localhost:3000/tasks``` para las peticiones que no requieran
 
 ![image](https://github.com/ezqHerrera/tasksjs/assets/72275360/77b9b539-e61d-4634-a93d-c041585f4217)
 
-![image](https://github.com/ezqHerrera/tasksjs/assets/72275360/acc18714-21ba-41b5-b492-85cd017dfd03)
+![image](https://github.com/ezqHerrera/tasksjs/assets/72275360/1bcea79b-f46b-4414-b17b-1dc34d87a639)
 
 
 ### License
