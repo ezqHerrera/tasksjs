@@ -28,7 +28,8 @@ Elimina una tarea según su id.
 Las pruebas se deberán realizar en una plataforma de APIs, como Insomnia o Postman. Alternativamente, puede acceder a la interfaz de Swagger desde ```http://localhost:3000/api```.
 La URL es ```http://localhost:3000/tasks``` para las peticiones que no requieran un parámetro **id**, y ```http://localhost:3000/tasks/:id``` para las que lo requieran, como se muestra en el siguiente ejemplo.
 
-![image](https://github.com/ezqHerrera/tasksjs/assets/72275360/df96f8fa-95dc-467d-a9a6-6d429ee11844)
+![image](https://github.com/ezqHerrera/tasksjs/assets/72275360/77b9b539-e61d-4634-a93d-c041585f4217)
+
 
 ### License
 
