@@ -1,10 +1,17 @@
-import { Body, Controller, Delete, Get, Param, ParseIntPipe, Patch, Post } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Inject, Param, ParseIntPipe, Patch, Post } from "@nestjs/common";
 import { TaskService } from "./task.service";
 import { CreateTaskDto } from "./dto/create-task.dto";
+import { WINSTON_MODULE_NEST_PROVIDER } from "nest-winston";
+import { Logger } from "winston";
 
 @Controller('tasks')
 export class TaskController {
-    constructor(private readonly taskService: TaskService){}
+    constructor(
+        @Inject(WINSTON_MODULE_NEST_PROVIDER)
+        private readonly logger: Logger,
+
+        private readonly taskService: TaskService
+    ){}
 
     @Post()
     createTask(@Body() createTaskDto: CreateTaskDto) {

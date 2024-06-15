@@ -6,6 +6,5 @@ export class CreateTaskDto {
 
     description: string;
 
-    @IsNotEmpty()
     state: string;
 }
